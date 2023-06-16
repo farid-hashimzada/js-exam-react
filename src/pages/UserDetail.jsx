@@ -17,7 +17,7 @@ export default function UserDetail() {
     getData()
   },[]);
   return (
-    <div>
+    <div className="userDetail">
       <h3>{name}</h3>
       <p>{email}</p>
     </div>
