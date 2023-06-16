@@ -8,9 +8,10 @@ const AppRouting = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Users />} />
+        <Route path="/users" element={<Users />} />
         <Route path="/user/:id" element={<UserDetail />} />
         <Route path="/badge" element={<SimpleBadge />} />
+        
       </Routes>
     </>
   );
